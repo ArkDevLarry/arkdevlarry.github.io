@@ -1,0 +1,42 @@
+{
+  "name": "react-three-js-software-dev-portfolio",
+  "private": true,
+  "homepage": "https://ArkDevLarry.github.io/",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-three/drei": "^9.80.1",
+    "@react-three/fiber": "^8.13.6",
+    "framer-motion": "^10.15.1",
+    "maath": "^0.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-router-dom": "^6.14.2",
+    "react-slick": "^0.29.0",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "svg-parser": "^2.0.4",
+    "three": "^0.155.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "svg-vdom": "^1.0.12",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  }
+}
