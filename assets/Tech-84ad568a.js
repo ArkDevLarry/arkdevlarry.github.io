@@ -1,0 +1,1 @@
+import{S as s,a,b as r}from"./index-0795648e.js";const t=()=>a("div",{className:"flex flex-row flex-wrap justify-center gap-10",children:r.map(e=>a("div",{className:"w-28 h-28",title:e.name},e.name))}),l=s(t,"");export{l as default};
